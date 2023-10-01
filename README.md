@@ -45,6 +45,7 @@ Your web browser should automatically open to `<ip>:<port>:<path>` default: [htt
 2. Modify `homepage` in `package.json` to point to where you plan to host your site. If you do not plan on using a custom domain name, it should look like `https://[your-gh-username].github.io/[repository-name - default:personal-site]/`
 3. If you plan on using a custom domain, modify `public/CNAME`. If you don't, delete `public/CNAME`.
 
+
 Make a commit to `main` and push your changes. That's it.
 
 ### Static Export
