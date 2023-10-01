@@ -19,11 +19,7 @@ const SideBar = () => (
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Mohamed. I am a <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC Alumni,
-        and the VP of Engineering at <a href="https://smileidentity.com">Smile Identity</a>. Previously,
-        I was the co-founder and CTO of <a href="https://arthena.com">Arthena</a>
-        , co-founder of <a href="https://matroid.com">Matroid</a>, and worked at
-        {' '}<a href="https://planet.com">Planet</a> and <a href="https://facebook.com">Facebook</a>.
+      <p>Hi. I am Mohamed. I graduated from faculty of pharmacy Pharos University with cGPA 3.73/4 (Excellent with honor). Now, I am a postgraduate student in Master of Pharmaceutical Management, Tanta University with current GPA 4.94/5 (Excellent with honor. I work as hospital pharmacist in Alexandria University Hospitals and project executive in Healthcare Organization of Professional Development..
       </p>
       <ul className="actions">
         <li>

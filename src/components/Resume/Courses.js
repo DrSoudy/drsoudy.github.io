@@ -7,8 +7,6 @@ const getRows = (courses) => courses.sort((a, b) => {
   let ret = 0;
   if (a.university > b.university) ret = -1;
   else if (a.university < b.university) ret = 1;
-  else if (a.number > b.number) ret = 1;
-  else if (a.number < b.number) ret = -1;
   return ret;
 }).map((course, idx) => (
   <Course
@@ -33,7 +31,6 @@ const Courses = ({ data }) => (
 Courses.propTypes = {
   data: PropTypes.arrayOf(PropTypes.shape({
     title: PropTypes.string,
-    number: PropTypes.string,
     link: PropTypes.string,
     university: PropTypes.string,
   })),
