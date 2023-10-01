@@ -18,7 +18,7 @@ const SideBar = () => (
     </section>
 
     <section className="blurb">
-      <h2>About</h2>
+      <h2>Summary</h2>
       <p>Hi. I am Mohamed. I graduated from faculty of pharmacy Pharos University with cGPA
         3.73/4 (Excellent with
         honor). Now, I am a postgraduate student in Master of Pharmaceutical Management,
