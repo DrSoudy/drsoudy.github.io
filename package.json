@@ -1,11 +1,11 @@
 {
-  "name": "personal-site",
+  "name": "drsoudy.github.io",
   "version": "4.0.0",
-  "homepage": "https://drsoudy.github.io",
+  "homepage": "https://drsoudy.github.io/",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mldangelo/personal-site.git"
+    "url": "https://github.com/DrSoudy/drsoudy.github.io.git"
   },
   "engines": {
     "node": ">=14.x"
@@ -25,7 +25,7 @@
     "@fortawesome/free-regular-svg-icons": "^6.4.2",
     "@fortawesome/react-fontawesome": "0.2.0",
     "dayjs": "^1.11.10",
-    "gh-pages": "^5.0.0",
+    "gh-pages": "^6.0.0",
     "markdown-to-jsx": "^7.3.2",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
