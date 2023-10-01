@@ -1,4 +1,4 @@
-import React, { useState, useCallback, useEffect } from 'react';
+import React, { useState, useCallback } from 'react';
 
 import Table from './Table';
 import initialData from '../../data/stats/site';
@@ -6,7 +6,7 @@ import initialData from '../../data/stats/site';
 const Stats = () => {
   const [data, setResponseData] = useState(initialData);
   // TODO think about persisting this somewhere
-  const fetchData = useCallback(async () => {
+  useCallback(async () => {
     // request must be authenticated if private
     const res = await fetch(
       'https://api.github.com/repos/drsoudy/drsoudy.github.io',
@@ -22,11 +22,6 @@ const Stats = () => {
       })),
     );
   }, []);
-
-  useEffect(() => {
-    fetchData();
-  }, [fetchData]);
-
   return (
     <div>
       <h3>Some stats about this site</h3>

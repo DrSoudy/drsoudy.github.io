@@ -19,18 +19,28 @@ const SideBar = () => (
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi. I am Mohamed. I graduated from faculty of pharmacy Pharos University with cGPA 3.73/4 (Excellent with honor). Now, I am a postgraduate student in Master of Pharmaceutical Management, Tanta University with current GPA 4.94/5 (Excellent with honor. I work as hospital pharmacist in Alexandria University Hospitals and project executive in Healthcare Organization of Professional Development..
+      <p>Hi. I am Mohamed. I graduated from faculty of pharmacy Pharos University with cGPA
+        3.73/4 (Excellent with
+        honor). Now, I am a postgraduate student in Master of Pharmaceutical Management,
+        Tanta University with
+        current GPA 4.94/5 (Excellent with honor. I work as hospital pharmacist in
+        Alexandria University
+        Hospitals and project executive in Healthcare Organization of Professional
+        Development.
       </p>
       <ul className="actions">
         <li>
-          {!window.location.pathname.includes('/resume') ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}
+          {!window.location.pathname.includes('/resume')
+            ? <Link to="/resume" className="button">Learn More</Link>
+            : <Link to="/about" className="button">About Me</Link>}
         </li>
       </ul>
     </section>
 
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">&copy; Mohamed Elsoudy <Link to="/">drsoudy.github.io</Link>.</p>
+      <p className="copyright">&copy; Mohamed Elsoudy <Link to="/">drsoudy.github.io</Link>.
+      </p>
     </section>
   </section>
 );
