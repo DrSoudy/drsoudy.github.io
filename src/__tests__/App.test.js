@@ -57,7 +57,7 @@ describe('renders the app', () => {
 
   it('can navigate to /stats', async () => {
     expect.assertions(3);
-    const contactLink = document.querySelector('#header > nav > ul > li:nth-child(3) > a');
+    const contactLink = document.querySelector('#header > nav > ul > li:nth-child(2) > a');
     expect(contactLink).toBeInTheDocument();
     await act(async () => {
       await contactLink.click();
@@ -68,7 +68,7 @@ describe('renders the app', () => {
 
   it('can navigate to /contact', async () => {
     expect.assertions(3);
-    const contactLink = document.querySelector('#header > nav > ul > li:nth-child(4) > a');
+    const contactLink = document.querySelector('#header > nav > ul > li:nth-child(3) > a');
     expect(contactLink).toBeInTheDocument();
     await act(async () => {
       await contactLink.click();
