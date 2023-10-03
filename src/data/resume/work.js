@@ -24,7 +24,7 @@ const work = [
       'Dispense medications to patients, both in-house and upon discharge.',
       'Monitor patients\' medication therapy to identify and resolve any potential problems.',
       'Provide drug information to other healthcare providers and patients.',
-      'Involved in other areas, such as nutrition support, and antimicrobial stewardship.'
+      'Involved in other areas, such as nutrition support, and antimicrobial stewardship.',
     ],
   },
   {
@@ -53,8 +53,8 @@ const work = [
     highlights: [
       'Built my brand called سعودي.',
       'Covered all costs of my store and succeeded in gaining revenue and profit.',
-      "Established a database of more than 1000 customers in 7 governorates.",
-      "Formulated some fragrance products like eau de cologne, eau de toilet, and eau de perfume.",
+      'Established a database of more than 1000 customers in 7 governorates.',
+      'Formulated some fragrance products like eau de cologne, eau de toilet, and eau de perfume.',
       'Made more than 300,000 L.E. sales in one product throughout the last years.',
     ],
   },
@@ -125,11 +125,11 @@ const work = [
     customer services and after sales service.`,
     highlights: [
       'Best achiever in Q4 2019.',
-      'Built Doctorz business outside Alexandria from nothing in 2016 to +350,000 L.E. ' +
-      'in total sales in the last 9 months.',
+      'Built Doctorz business outside Alexandria from nothing in 2016 to +350,000 L.E. '
+      + 'in total sales in the last 9 months.',
       'Q1,2 2020 total sales were 57.3% more than the same period in 2019.',
     ],
-  }
+  },
 ];
 
 export default work;
