@@ -11,17 +11,17 @@ const skills = [
   },
   {
     title: 'Product Specialists',
-    competency: 2,
+    competency: 5,
     category: ['Industry Knowledge'],
   },
   {
     title: 'Market Research',
-    competency: 3,
+    competency: 4,
     category: ['Industry Knowledge'],
   },
   {
     title: 'B2B Marketing',
-    competency: 2,
+    competency: 4,
     category: ['Industry Knowledge'],
   },
   {
@@ -31,22 +31,22 @@ const skills = [
   },
   {
     title: 'Visual Inspection',
-    competency: 2,
+    competency: 5,
     category: ['Industry Knowledge'],
   },
   {
     title: 'Microsoft Excel',
-    competency: 2,
-    category: ['Tools & Technologies'],
-  },
-  {
-    title: 'Microsoft Office',
     competency: 4,
     category: ['Tools & Technologies'],
   },
   {
-    title: 'Power Point',
+    title: 'Microsoft Office',
     competency: 3,
+    category: ['Tools & Technologies'],
+  },
+  {
+    title: 'Power Point',
+    competency: 4,
     category: ['Tools & Technologies'],
   },
   {
@@ -56,32 +56,57 @@ const skills = [
   },
   {
     title: 'Team Leadership',
-    competency: 2,
+    competency: 5,
     category: ['Interpersonal Skills'],
   },
   {
     title: 'Problem Solving',
-    competency: 2,
+    competency: 4,
     category: ['Interpersonal Skills'],
   },
   {
     title: 'Negotiation',
-    competency: 3,
+    competency: 5,
+    category: ['Interpersonal Skills'],
+  },
+  {
+    title: 'Time management',
+    competency: 5,
+    category: ['Interpersonal Skills'],
+  },
+  {
+    title: 'Analytical Thinking',
+    competency: 5,
+    category: ['Interpersonal Skills'],
+  },
+  {
+    title: 'Presentation',
+    competency: 5,
+    category: ['Interpersonal Skills'],
+  },
+  {
+    title: 'Retail Management',
+    competency: 4,
+    category: ['Interpersonal Skills'],
+  },
+  {
+    title: 'Customer Service',
+    competency: 5,
     category: ['Interpersonal Skills'],
   },
   {
     title: 'Active Listening',
-    competency: 3,
+    competency: 4,
     category: ['Interpersonal Skills'],
   },
   {
     title: 'Teamwork',
-    competency: 3,
+    competency: 5,
     category: ['Interpersonal Skills'],
   },
   {
     title: 'Communication',
-    competency: 2,
+    competency: 5,
     category: ['Interpersonal Skills'],
   },
   {
@@ -91,7 +116,7 @@ const skills = [
   },
   {
     title: 'English',
-    competency: 3,
+    competency: 4,
     category: ['Languages'],
   },
   {
@@ -100,8 +125,8 @@ const skills = [
     category: ['Languages'],
   },
   {
-    title: 'Artificial Intelligence',
-    competency: 2,
+    title: 'Artificial Intelligence Tools',
+    competency: 3,
     category: ['Industry Knowledge'],
   },
 
